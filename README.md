@@ -17,6 +17,20 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+Starting the server
+=======
+```
+pip install gunicorn
+# and run
+gunicorn -k flask_sockets.worker sockets:app
+```
+The flask server by itself does not run properly.
+
+Source
+======
+Using WebSocket example by Abram Hindle for implementing some functions
+https://github.com/abramhindle/WebSocketsExamples
+
 Contributors / Licensing
 ========================
 
