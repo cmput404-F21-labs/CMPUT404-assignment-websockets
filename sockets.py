@@ -35,7 +35,6 @@ clients = list()
 def send_all(msg):
     for client in clients:
         client.put(msg)
-        print(msg)
 
 def send_all_json(obj):
     send_all(json.dumps(obj))
