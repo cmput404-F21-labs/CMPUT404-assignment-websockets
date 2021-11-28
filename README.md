@@ -31,6 +31,9 @@ Source
 Using WebSocket example by Abram Hindle for implementing some functions
 https://github.com/abramhindle/WebSocketsExamples
 
+Images from:
+https://www.amnh.org/var/ezflow_site/storage/images/media/amnh/images/explore/ology-images/earth/what-s-the-big-idea-about-earth/earth-icon/4690373-1-eng-US/earth-icon.png
+
 Contributors / Licensing
 ========================
 
